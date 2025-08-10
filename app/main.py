@@ -4,7 +4,7 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import PlainTextResponse, JSONResponse
 from dotenv import load_dotenv
 
-from .mcp import handle_mcp
+from ..mcp import handle_mcp
 
 load_dotenv()
 
